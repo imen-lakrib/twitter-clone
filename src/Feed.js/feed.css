@@ -1,0 +1,28 @@
+.feed{
+    flex: 0.4;
+    border-right: var(--twitter-background) solid 1px;
+    /* min width it make the section responsive depended of the width of the content inside of this section */
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+.feed--header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    border: var(--twitter-background) solid 1px;
+    padding: 15px 20px;
+}
+.feed--header >h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* hide the scroll bar */
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

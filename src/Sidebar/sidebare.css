@@ -1,0 +1,25 @@
+/* this class !important is to override the class */
+.sidebare{
+    border-right: var(--twitter-background) solid 1px;
+    flex: 0.3;
+    min-width: 250px;
+    margin-top: 20px;
+    padding: 0 20px;
+
+}
+.sidebare--twitter--icon{
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sidebar--Tweet{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
